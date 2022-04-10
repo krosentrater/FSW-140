@@ -1,0 +1,129 @@
+
+.recycled-items {
+    display: flex;
+    flex-direction: column;
+    margin: 0 32px;
+    text-align: center;
+}
+
+html {
+    background-color: rgba(151, 131, 99, 0.664);
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h1, p {
+    margin: 5px;
+}
+
+span {
+    margin: 5px;
+}
+
+.item {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background-color: white;
+}
+
+.item:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.delete {
+    background: rgba(255, 0, 0, 0.521);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.delete:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.delete:active {
+    transform: translateY(2px);
+}
+
+.edit {
+    background: lightgreen;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.edit:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.edit:active {
+    transform: translateY(2px);
+}
+
+.add {
+    background: lightblue;
+    border-radius: 5px;
+    padding: 8px;
+    margin: 5px;
+    font-size: large;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.add:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.add:active {
+    transform: translateY(2px);
+}
+
+input {
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 5px;
+    margin: 5px;
+    font-size: large;
+}
+
+input:hover {
+    border: 2px solid rgb(35, 173, 35);
+}
+
+.close-btn {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(220, 20, 60);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.close-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.close-btn:active {
+    transform: translateY(2px);
+}
+
+.not-bold {
+    font-weight: normal;
+}
+
+.make-bold {
+    font-weight: bold;
+}
+
+.header {
+    text-align: center;
+    padding: 5px;
+}
+
+.sub-header {
+    text-align: center;
+    font-style: italic;
+}
